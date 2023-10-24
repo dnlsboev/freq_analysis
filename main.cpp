@@ -10,7 +10,7 @@ int main()
 {
     map<char, int> frequencies; 
 
-    // инициализация
+    // init
     for(int c {97}; c < 123; c++)
         frequencies[(char) c] = 0;
 
@@ -36,9 +36,7 @@ int main()
     cout << "File name: " << file_name << endl;
     cout << "Time: " << full_time << " sec." << endl;
 
-    // вывод частот
+    // out
     for (const auto& [character, freq] : frequencies)
         cout << character << ": " << freq << endl;
 }
-
-// a -- 97, z -- 122 --- англ алфавит
