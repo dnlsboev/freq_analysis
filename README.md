@@ -5,6 +5,8 @@ Solution of a problem from parallel programming course
 Read text from a file, determine the frequency distribution of characters.
 
 ## OpenMP results
+Solution was compiled with g++ and -O3 option.
+
 ![image](https://github.com/dnlsboev/freq_analysis/assets/56260361/b6c4f1b1-117c-4da1-9d18-a43caa4be0cd)
 Boost for file Bible100 (100 copies of the Bible).
 
