@@ -1,0 +1,5 @@
+*.txt
+**/.vscode
+*.png
+foo*
+*.py
